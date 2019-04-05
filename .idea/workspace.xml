@@ -1,46 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7201c30-302f-40c2-a223-7c08a82ee6f9" name="Default Changelist" comment="initial commit from IntelliJ">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Falling_Platforms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/Falling_Platforms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/Lava.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/Platform.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/collisions$Collision.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/collisions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/highscore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/lavaMiddle.piskel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/lavaMiddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/lavaTop.piskel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/lavaTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/platformLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/platformMiddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/platformRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Falling_Platforms/data/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Falling_Platforms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collisions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/highscore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lavaMiddle.piskel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lavaMiddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lavaTop.piskel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lavaTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/platformLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/platformMiddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/platformRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/player.png" afterDir="false" />
+    <list default="true" id="e7201c30-302f-40c2-a223-7c08a82ee6f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Platform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,6 +85,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -214,6 +177,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554372452283</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit from IntelliJ">
+      <created>1554493078477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554493078477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -227,10 +198,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.18601191" />
-      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.1860817" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.18601191" />
+      <window_info id="Structure" order="1" sideWeight="0.50359714" side_tool="true" weight="0.18601191" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" show_stripe_button="false" sideWeight="0.50080514" side_tool="true" weight="0.1860817" />
@@ -241,10 +211,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.52012885" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985119" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.52012885" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.52012885" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4985119" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -307,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Platform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
