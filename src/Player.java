@@ -1,5 +1,3 @@
-import processing.core.PApplet;
-
 class Player {
     static final int HEIGHT = 90;
     static final float LATERAL_VELOCITY = 5;
@@ -12,7 +10,7 @@ class Player {
     float velocityY = 0;
     Platform landed = null;
     boolean isDead = false;
-    private PApplet p = Falling_Platforms.sketch;
+    private Falling_Platforms p = Falling_Platforms.sketch;
     private float y;
     private int score;
 
@@ -22,7 +20,7 @@ class Player {
     }
 
     private void render() {
-        p.image(Falling_Platforms.playerImg, this.x, this.y);
+        p.image(p.playerImg, this.x, this.y);
     }
 
     private void renderScore() {
@@ -33,7 +31,7 @@ class Player {
         p.text(this.score, 0, -15);
 
         p.textAlign(p.RIGHT, p.TOP);
-        p.text(Falling_Platforms.highscore, p.width, -15);
+        p.text(p.highscore, p.width, -15);
     }
 
     private void move() {
@@ -62,7 +60,7 @@ class Player {
     private void handleCollisions(float ix, float iy, float fx, float fy) {
         landed = null;
 
-        for (Platform platform : Falling_Platforms.platforms) {
+        for (Platform platform : p.platforms) {
             collisions.Collision newCoords = collisions.findEntranceCheckForTunnelling(ix, iy, fx, fy, Player.HITBOX_WIDTH, Player.HEIGHT, platform.x, platform.y, platform.w, Platform.HEIGHT);
 
             if (newCoords != null && newCoords.side.equals("top")) {
@@ -83,12 +81,12 @@ class Player {
 
     private void checkDead() {
         if (this.y > p.height - Lava.HEIGHT - Player.HEIGHT) {
-            Falling_Platforms.paused = true;
+            p.paused = true;
             isDead = true;
 
-            if (score > Falling_Platforms.highscore) {
-                Falling_Platforms.highscore = score;
-                p.saveStrings("data/highscore.txt", new String[]{Integer.toString(Falling_Platforms.highscore)});
+            if (score > p.highscore) {
+                p.highscore = score;
+                p.saveStrings("data/highscore.txt", new String[]{Integer.toString(p.highscore)});
             }
 
             p.pushStyle();

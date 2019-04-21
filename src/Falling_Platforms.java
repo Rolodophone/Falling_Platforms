@@ -6,19 +6,19 @@ import java.util.HashMap;
 
 
 public class Falling_Platforms extends PApplet {
-    final static int FPS = 60;
-    static PApplet sketch;
-    static boolean paused = false;
-    static PImage playerImg, platformL, platformM, platformR, lavaM;
-    static PImage[] lavaT = new PImage[3];
-    static int highscore;
-    static ArrayList<Platform> platforms;
-    private static int framesSincePlatform = 0;
+    static Falling_Platforms sketch;
+    final int FPS = 60;
+    boolean paused = false;
+    PImage playerImg, platformL, platformM, platformR, lavaM;
+    PImage[] lavaT = new PImage[3];
+    int highscore;
+    ArrayList<Platform> platforms;
+    private int framesSincePlatform = 0;
 
 
-    private static HashMap<String, Boolean> keysPressed = new HashMap<>(5);
-    private static Player player;
-    private static Lava lava;
+    private HashMap<String, Boolean> keysPressed = new HashMap<>(5);
+    private Player player;
+    private Lava lava;
     private final Integer BG_COLOUR = color(220);
 
     public static void main(String[] args) {
@@ -165,7 +165,7 @@ public class Falling_Platforms extends PApplet {
 
             int w = (int) random(Platform.MIN_WIDTH / Platform.TILE_WIDTH, Platform.MAX_WIDTH / Platform.TILE_WIDTH) * Platform.TILE_WIDTH;
             int x = (int) random(width - w);
-            int y = -Platform.HEIGHT;
+            int y = -Platform.HEIGHT; //ensures platform is hidden before moving into view
             int s = (int) random(Platform.MIN_SPEED, Platform.MAX_SPEED);
 
             platforms.add(new Platform(x, y, w, s));
